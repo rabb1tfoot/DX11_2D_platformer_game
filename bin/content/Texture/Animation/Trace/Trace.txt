@@ -1,0 +1,47 @@
+wake up 	startpoint 0,0 size 40, 35, count 3
+
+idle    	startpoint 0, 40 size 40, 35, count 4
+
+run     	startpoint 0, 80 size 40, 35  count 8
+
+dead    	startpoint 0, 120 size 40, 35, count 5
+w
+underun 	startpoint 0, 160 size 40, 35, count 8
+
+jump    	startpoint 0, 200 size 40, 35, count 4
+
+land    	startpoint 0, 240 size 40, 35, count 2
+
+upanim-jump 	startpoint 0, 275 size 40, 40, count 4
+
+upanim-land  	startpoint 0, 320 size 40, 35, count 2 (비스듬한 위)
+
+upanim-run  	startpoint 0, 360 size 40, 35, count 8
+
+upanimidle  	startpoint 0, 398 size 40, 40, count 4
+
+downanim-jump 	startpoint 0, 440 size 40, 35, count 4
+
+downanim-land	startpoint 0, 480 size 40, 35, count 2
+
+downanim-idle	startpoint 0, 520 size 40, 35, count 4
+
+upidle		startpoint 0, 560 size 40, 45, count 4 (완전한 위)
+
+upland		startpoint 0, 610 size 40, 45, count 2
+
+up-jump		startpoint 0, 655 size 40, 50, count 5
+
+front-turn	startpoint 120,0  size 40, 35, count 1
+
+upanim-turn	startpoint 160,0  size 40, 35, count 1
+
+downanim-turn	startpoint 200, 0 size 40, 35, count 1
+
+upanim-sit	startpoint 240, 0 size 40, 35, count 1
+
+directup-sit	startpoint 280, 0 size 40, 35, count 1
+
+downanim-sit	startpoint 320, 0 size 40, 35, count 1
+
+front-sit	startpoint 0, 160 size 40, 35, count 1

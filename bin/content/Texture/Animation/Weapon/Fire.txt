@@ -1,0 +1,1 @@
+Fire 	startpoint 0,0 size  50,53 count 5

@@ -1,0 +1,11 @@
+wakeup : startpoint : 0,0 ,chopsize : 40,25 , count: 4
+
+idle :   startpoint : 0,25 ,chopsize : 40, 35, count: 1
+
+run :    startpoint : 0, 70, chopsize : 40, 35, count: 8 
+
+jump :   startpoint : 0, 105,chopsize : 40, 40, count : 6
+
+landing : startpoint : 0, 145,chopsize : 40, 35 count : 2
+
+crouch : startpoint : 0, 200, chopsize : 40, 25, count : 1

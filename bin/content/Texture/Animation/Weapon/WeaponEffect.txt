@@ -1,0 +1,5 @@
+standard fire	startpoint 0,0 size 74, 44 약간씩다르긴한데 어자피 하나만쓰자
+
+blockexplose	startpoint 100,0 size 64, 64 count 4
+
+fireexplose	startpoint 200, 0, size 16 16 count 3

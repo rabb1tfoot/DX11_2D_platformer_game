@@ -1,0 +1,189 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  //
+  // FX Version: fx_5_0
+  //
+  // 5 local buffer(s)
+  //
+  cbuffer MATRIX : register(b0)
+  {
+      float4x4 g_matWorld;                // Offset:    0, size:   64
+      float4x4 g_matView;                 // Offset:   64, size:   64
+      float4x4 g_matProj;                 // Offset:  128, size:   64
+  }
+  
+  cbuffer MATERIAL : register(b1)
+  {
+      int     g_int_0;                    // Offset:    0, size:    4
+      int     g_int_1;                    // Offset:    4, size:    4
+      int     g_int_2;                    // Offset:    8, size:    4
+      int     g_int_3;                    // Offset:   12, size:    4
+      float   g_float_0;                  // Offset:   16, size:    4
+      float   g_float_1;                  // Offset:   20, size:    4
+      float   g_float_2;                  // Offset:   24, size:    4
+      float   g_float_3;                  // Offset:   28, size:    4
+      float2  g_float2_0;                 // Offset:   32, size:    8
+      float2  g_float2_1;                 // Offset:   40, size:    8
+      float2  g_float2_2;                 // Offset:   48, size:    8
+      float2  g_float2_3;                 // Offset:   56, size:    8
+      float4  g_float4_0;                 // Offset:   64, size:   16
+      float4  g_float4_1;                 // Offset:   80, size:   16
+      float4  g_float4_2;                 // Offset:   96, size:   16
+      float4  g_float4_3;                 // Offset:  112, size:   16
+      float4x4 g_mat_0;                   // Offset:  128, size:   64
+      float4x4 g_mat_1;                   // Offset:  192, size:   64
+      float4x4 g_mat_2;                   // Offset:  256, size:   64
+      float4x4 g_mat_3;                   // Offset:  320, size:   64
+  }
+  
+  cbuffer ANIM2D : register(b2)
+  {
+      float2  vLT;                        // Offset:    0, size:    8
+      float2  vSize;                      // Offset:    8, size:    8
+      int     iAnimCheck;                 // Offset:   16, size:    4
+      float3  vPadding;                   // Offset:   20, size:   12
+  }
+  
+  cbuffer TILE_VALUE : register(b3)
+  {
+      int4    g_int_tile[225];            // Offset:    0, size: 3600
+      float4  g_float_tileX[225];         // Offset: 3600, size: 3600
+      float4  g_float_tileY[225];         // Offset: 7200, size: 3600
+      float4  g_float_tileTexX[225];      // Offset: 10800, size: 3600
+      float4  g_float_tileTexY[225];      // Offset: 14400, size: 3600
+  }
+  
+  cbuffer GLOBAL_VALUE : register(b4)
+  {
+      uint    iLightCount;                // Offset:    0, size:    4
+      float   fDT;                        // Offset:    4, size:    4
+      float   fAccTime;                   // Offset:    8, size:    4
+      float   fPadding;                   // Offset:   12, size:    4
+  }
+  
+  //
+  // 9 local object(s)
+  //
+  Texture2D g_tex_0;
+  Texture2D g_tex_1;
+  Texture2D g_tex_2;
+  Texture2D g_tex_3;
+  Texture2D g_tex_anim;
+  SamplerState g_sam_0
+  {
+  };
+  SamplerState g_sam_1
+  {
+  };
+  SamplerState g_sam_2
+  {
+  };
+  SamplerState g_sam_3
+  {
+  };
+  
+  stdafx.cpp
+  Animation2D.cpp
+c:\users\user\desktop\dxgameengine2\02. engine\animation2d.cpp(48): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\animation2d.cpp(67): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Animator2D.cpp
+  BlendState.cpp
+  Camera.cpp
+  Collider2D.cpp
+  ColliderMgr.cpp
+  Component.cpp
+  ConstBuffer.cpp
+  DepthStencilState.cpp
+  DialogueMgr.cpp
+  EventMgr.cpp
+c:\users\user\desktop\dxgameengine2\02. engine\eventmgr.cpp(51): warning C4244: '인수': 'INT_PTR'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Layer.cpp
+  Prefab.cpp
+  RenderMgr.cpp
+  ResPtr.cpp
+  samplerState.cpp
+  Scene.cpp
+  GameObj.cpp
+  Core.cpp
+  Device.cpp
+c:\users\user\desktop\dxgameengine2\02. engine\device.cpp(175): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\device.cpp(176): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\device.cpp(278): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+c:\users\user\desktop\dxgameengine2\02. engine\gameobj.cpp(361): warning C4715: 'CGameObj::FindScript': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  Entity.cpp
+  func.cpp
+c:\users\user\desktop\dxgameengine2\02. engine\func.cpp(11): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  KeyMgr.cpp
+  Material.cpp
+  Mesh.cpp
+c:\users\user\desktop\dxgameengine2\02. engine\mesh.cpp(118): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MeshRender.cpp
+  PathMgr.cpp
+c:\users\user\desktop\dxgameengine2\02. engine\pathmgr.cpp(15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\pathmgr.cpp(40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\pathmgr.cpp(41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ResMgr.cpp
+c:\users\user\desktop\dxgameengine2\02. engine\resmgr.cpp(78): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\resmgr.cpp(122): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\resmgr.cpp(166): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\resmgr.cpp(209): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ReSource.cpp
+  SceneMgr.cpp
+  Script.cpp
+  Shader.cpp
+  Sound.cpp
+  State.cpp
+  Texture.cpp
+  TimeMgr.cpp
+  Transform.cpp
+  코드를 생성하고 있습니다...
+c:\users\user\desktop\dxgameengine2\02. engine\mesh.cpp(146): warning C4715: 'CMesh::LoadFromScene': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\user\desktop\dxgameengine2\02. engine\material.cpp(173): warning C4715: 'CMaterial::LoadFromScene': 모든 제어 경로에서 값을 반환하지는 않습니다.
+ResPtr.obj : warning LNK4221: 이 개체 파일은 이전에 정의되지 않은 공용 기호를 정의하지 않으므로 이 라이브러리를 사용하는 어떠한 링크 작업에도 사용되지 않습니다.
+  02. Engine.vcxproj -> C:\Users\user\Desktop\dxGameEngine2\Project\Library\Engine\x64\Dx11Game_debug.lib
+  .\02. Engine\Animation2D.h
+  .\02. Engine\Animator2D.h
+  .\02. Engine\BlendState.h
+  .\02. Engine\Camera.h
+  .\02. Engine\Collider2D.h
+  .\02. Engine\ColliderMgr.h
+  .\02. Engine\Component.h
+  .\02. Engine\ConstBuffer.h
+  .\02. Engine\Core.h
+  .\02. Engine\define.h
+  .\02. Engine\DepthStencilState.h
+  .\02. Engine\Device.h
+  .\02. Engine\DialogueMgr.h
+  .\02. Engine\Entity.h
+  .\02. Engine\EventMgr.h
+  .\02. Engine\func.h
+  .\02. Engine\GameObj.h
+  .\02. Engine\global.h
+  .\02. Engine\KeyMgr.h
+  .\02. Engine\Layer.h
+  .\02. Engine\Material.h
+  .\02. Engine\Mesh.h
+  .\02. Engine\MeshRender.h
+  .\02. Engine\PathMgr.h
+  .\02. Engine\Prefab.h
+  .\02. Engine\RenderMgr.h
+  .\02. Engine\ResMgr.h
+  .\02. Engine\ReSource.h
+  .\02. Engine\ResPtr.h
+  .\02. Engine\samplerState.h
+  .\02. Engine\Scene.h
+  .\02. Engine\SceneMgr.h
+  .\02. Engine\Script.h
+  .\02. Engine\Shader.h
+  .\02. Engine\Sound.h
+  .\02. Engine\State.h
+  .\02. Engine\struct.h
+  .\02. Engine\Texture.h
+  .\02. Engine\TimeMgr.h
+  .\02. Engine\Transform.h
+  40개 파일이 복사되었습니다.
+  .\02. Engine\std.fx
+  1개 파일이 복사되었습니다.

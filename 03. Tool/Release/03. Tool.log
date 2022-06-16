@@ -1,0 +1,70 @@
+﻿  stdafx.cpp
+  AddAnimDlg.cpp
+  AddAnimTexDlg.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\addanimtexdlg.cpp(156): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AddComDlg.cpp
+  AnimatorDlg.cpp
+  BtnView.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\btnview.cpp(78): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\btnview.cpp(85): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\btnview.cpp(89): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\btnview.cpp(93): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\btnview.cpp(177): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CameraDlg.cpp
+  Collider2DDlg.cpp
+  CollisionCheck.cpp
+  ComponentDlg.cpp
+  ComponentView.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(71): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(94): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(95): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(126): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(127): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(128): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(129): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CreateTile.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\createtile.cpp(45): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\createtile.cpp(47): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DebugView.cpp
+  GameObjectDlg.cpp
+  GameView.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\gameview.cpp(111): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\gameview.cpp(230): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\gameview.cpp(231): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\gameview.cpp(281): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\gameview.cpp(341): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  HierachyView.cpp
+  ListDlg.cpp
+  MaterialDlg.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(71): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(94): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(95): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(126): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(127): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(128): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(129): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MeshRenderDlg.cpp
+  mtrlCtrl.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(71): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(94): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(95): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(126): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(127): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(128): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\mtrlctrl.h(129): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MySplitterWnd.cpp
+  컴파일하고 있습니다...
+  ResDlg.cpp
+  ResInfoDlg.cpp
+  ScriptDlg.cpp
+  ToolApp.cpp
+c:\users\user\desktop\dx2d projectfin soundx\03. tool\toolapp.cpp(246): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  MainFrm.cpp
+  TransformDlg.cpp
+LINK : warning C4743: 'class CCore `static class CCore * __cdecl CCore::GetInst(void)'::`2'::mgr'의 크기가 'c:\users\user\desktop\dx2d projectfin soundx\02. engine\gameobj.cpp'과(와) 'c:\users\user\desktop\dx2d projectfin soundx\03. tool\btnview.cpp'에서 서로 다릅니다(40바이트, 48바이트).
+  코드를 생성하고 있습니다.
+c:\users\user\desktop\dx2d projectfin soundx\02. engine\mesh.cpp(146): warning C4715: 'CMesh::LoadFromScene': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\user\desktop\dx2d projectfin soundx\02. engine\material.cpp(173): warning C4715: 'CMaterial::LoadFromScene': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  All 3427 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  03. Tool.vcxproj -> C:\Users\user\Desktop\DX2D projectFin soundx\Release\03. Tool.exe

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\App">
+      <UniqueIdentifier>{8f8c02ac-7658-4f97-8586-301025defa26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FraneWnd">
+      <UniqueIdentifier>{3f5e0e6a-12e5-4c67-8d20-91783d363ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View">
+      <UniqueIdentifier>{755746a7-b23c-43f4-ba00-39521fe4d90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View\ComponentView">
+      <UniqueIdentifier>{2a9a25f3-4b0b-4729-8a01-93a67c6c6447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View\BtnView">
+      <UniqueIdentifier>{1459cf8c-ed8b-4ef6-addb-405336173917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View\DeBugView">
+      <UniqueIdentifier>{4a8962f6-0dc2-4a59-badd-6f91e8544d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View\GameView">
+      <UniqueIdentifier>{f5e50e3f-b56a-4186-98ef-7da7f64b8b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View\HierachyView">
+      <UniqueIdentifier>{78219138-164f-466d-b644-98ba249cd22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Module">
+      <UniqueIdentifier>{eaf96c6c-c56f-4042-8128-aacdafdb64f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dialogue">
+      <UniqueIdentifier>{12e759f5-aeb7-48c8-9c38-25fe1f04f8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dialogue\ComDlg">
+      <UniqueIdentifier>{90880166-4b7c-42ac-b124-5532f03e46bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dialogue\HierachyDlg">
+      <UniqueIdentifier>{35dd055e-a4aa-41f7-bb28-a604cd31c885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dialogue\ComDlg\AddAnimDlg">
+      <UniqueIdentifier>{ed93a41b-5f54-40d8-b767-9b424a3aafdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dialogue\BTNDlg">
+      <UniqueIdentifier>{a117f130-d93a-4b98-b7e1-8cc5612fc206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dialogue\ResInfoDlg">
+      <UniqueIdentifier>{d26e9edd-a964-42b1-970a-3f60cc7660ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ToolApp.h">
+      <Filter>소스 파일\App</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>소스 파일\FraneWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentView.h">
+      <Filter>소스 파일\View\ComponentView</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnView.h">
+      <Filter>소스 파일\View\BtnView</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugView.h">
+      <Filter>소스 파일\View\DeBugView</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>소스 파일\View\GameView</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyView.h">
+      <Filter>소스 파일\View\HierachyView</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitterWnd.h">
+      <Filter>소스 파일\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2DDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAnimDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg\AddAnimDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAnimTexDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg\AddAnimDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectDlg.h">
+      <Filter>소스 파일\Dialogue\HierachyDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateTile.h">
+      <Filter>소스 파일\Dialogue\BTNDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCheck.h">
+      <Filter>소스 파일\Dialogue\BTNDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ResDlg.h">
+      <Filter>소스 파일\Dialogue\HierachyDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ResInfoDlg.h">
+      <Filter>소스 파일\Dialogue\ResInfoDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialDlg.h">
+      <Filter>소스 파일\Dialogue\ResInfoDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="mtrlCtrl.h">
+      <Filter>소스 파일\Dialogue\ResInfoDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AddComDlg.h">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolApp.cpp">
+      <Filter>소스 파일\App</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일\FraneWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentView.cpp">
+      <Filter>소스 파일\View\ComponentView</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnView.cpp">
+      <Filter>소스 파일\View\BtnView</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugView.cpp">
+      <Filter>소스 파일\View\DeBugView</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>소스 파일\View\GameView</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyView.cpp">
+      <Filter>소스 파일\View\HierachyView</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitterWnd.cpp">
+      <Filter>소스 파일\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2DDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAnimDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg\AddAnimDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAnimTexDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg\AddAnimDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectDlg.cpp">
+      <Filter>소스 파일\Dialogue\HierachyDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateTile.cpp">
+      <Filter>소스 파일\Dialogue\BTNDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCheck.cpp">
+      <Filter>소스 파일\Dialogue\BTNDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ResDlg.cpp">
+      <Filter>소스 파일\Dialogue\HierachyDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ResInfoDlg.cpp">
+      <Filter>소스 파일\Dialogue\ResInfoDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialDlg.cpp">
+      <Filter>소스 파일\Dialogue\ResInfoDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="mtrlCtrl.cpp">
+      <Filter>소스 파일\Dialogue\ResInfoDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AddComDlg.cpp">
+      <Filter>소스 파일\Dialogue\ComDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My03Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My03Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\03. Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
